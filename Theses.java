@@ -7,6 +7,6 @@ public class Theses implements Resource{
 
     @Override
     public void borrow() {
-        System.out.println(thesisTitle + " has been borrowed by a student.");
+        System.out.println(thesisTitle + " borrowed by a student.");
     }
 }

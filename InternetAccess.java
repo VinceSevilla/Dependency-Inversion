@@ -7,6 +7,6 @@ public class InternetAccess implements Resource {
 
     @Override
     public void borrow() {
-        System.out.println(internetAccess + " url has been accessed by a student.");
+        System.out.println(internetAccess + " url accessed by a student.");
     }
 }

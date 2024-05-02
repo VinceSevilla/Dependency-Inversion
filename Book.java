@@ -7,6 +7,6 @@ public class Book implements Resource{
 
     @Override
     public void borrow() {
-        System.out.println(bookTitle + " has been borrowed by a student.");
+        System.out.println(bookTitle + " borrowed by a student.");
     }
 }

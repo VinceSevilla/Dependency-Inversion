@@ -7,6 +7,6 @@ public class Capstone implements Resource{
 
     @Override
     public void borrow() {
-        System.out.println(capstoneTitle + " project details has been borrowed by a student.");
+        System.out.println(capstoneTitle + " project details borrowed by a student.");
     }
 }

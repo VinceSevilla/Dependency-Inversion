@@ -7,6 +7,6 @@ public class Newspaper implements Resource {
 
     @Override
     public void borrow() {
-        System.out.println(newspaper + " has been borrowed by a student.");
+        System.out.println(newspaper + " borrowed by a student.");
     }
 }
